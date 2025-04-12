@@ -1,0 +1,47 @@
+import { ScheduledShift } from '@/components/schedule';
+
+// Mock data for scheduled shifts
+export const mockScheduledShifts: ScheduledShift[] = [
+  {
+    id: 1,
+    role: "RN",
+    roleColor: "#FF3B30",
+    distance: "3.4mi",
+    badge: "Long Term",
+    title: "Registered Nurse RN - Long Term Care",
+    location: "Rocky Mtn. Care of Heber - the Lodge Heber City Utah",
+    date: "Jun 9, 8 AM - 5 PM",
+    payRate: "$400",
+    hourlyRate: "50/hr",
+    status: "Scheduled",
+    isFavorite: false,
+  },
+  {
+    id: 2,
+    role: "CNA",
+    roleColor: "#FF3B30",
+    distance: "3.4mi",
+    badge: "Long Term",
+    title: "Registered Nurse RN - Long Term Care",
+    location: "Rocky Mtn. Care of Heber - the Lodge Heber City Utah",
+    date: "Jun 9, 8 AM - 5 PM",
+    payRate: "$400",
+    hourlyRate: "50/hr",
+    status: "Requested",
+    isFavorite: true,
+  },
+  {
+    id: 3,
+    role: "PLN",
+    roleColor: "#FF3B30",
+    distance: "3.4mi",
+    badge: "Long Term",
+    title: "Registered Nurse RN - Long Term Care",
+    location: "Rocky Mtn. Care of Heber - the Lodge Heber City Utah",
+    date: "Jun 9, 8 AM - 5 PM",
+    payRate: "$400",
+    hourlyRate: "50/hr",
+    status: "Scheduled",
+    isFavorite: false,
+  },
+]; 
